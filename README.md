@@ -12,11 +12,11 @@ A helper Class to achieve adhesive Bond Effect between two UIView.
 
 ## Interface
 
-### `- (void) showCuteEffectFromView: (UIView *)v1 To: (UIView *)v2 SuperView: (UIView *)sv;`
+#### `- (void) showCuteEffectFromView: (UIView *)v1 To: (UIView *)v2 SuperView: (UIView *)sv;`
 
 * 通过获取圆形视图半径，对两个视图进行粘性连接。
  
-### `- (void) startAnimation;`  And  `- (void) stopAnimation;`
+#### `- (void) startAnimation;`  And  `- (void) stopAnimation;`
 
 * 开启和结束*Core Animation*的标志。之间会使用*displaylink*不断重绘贝塞尔图形。
 
