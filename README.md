@@ -20,7 +20,9 @@ A helper Class to achieve adhesive Bond Effect between two UIView.
 
 * 开启和结束*Core Animation*的标志。之间会使用*displaylink*不断重绘贝塞尔图形。
 
-## How to use?
+## When to use?
+
+当我们在有多个子视图时，我们可以考虑使用粘连效果来达到新的效果。
 
 ### e.g
 
